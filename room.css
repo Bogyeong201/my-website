@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.nav-title {
+    background-color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+    font-family: 'NanumSquareRound';
+    /*font-family: "Jua", sans-serif;*/
+}
+.nav-area {
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    font-family: 'NanumSquareRound';
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+@media (max-width: 992px) {
+    .nav-area {
+        display: block;
+    }
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main-img {
+    width: 800px;
+    height: 800px;
+}
+.sub-title {
+    font-size: 20px;
+    font-family: 'NanumSquareRound';
+    font-weight: bold;
+    border-bottom: 3px solid rgb(75, 75, 75);
+    padding-bottom: 10px;
+}
+.card-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: rgb(65, 65, 65);
+    border-color: rgb(65, 65, 65);
+    border-radius: 50px;
+}
+.btn-primary:hover {
+    background-color: rgb(190, 190, 190);
+    border-color: rgb(190, 190, 190);
+}
+
+@media (max-width: 576px) {
+    .main-img {
+        height: 375px;
+    }
+    .footer-first-line {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sns-area {
+        display: flex;
+        justify-content: center;
+        padding-left: 60px;
+        padding-top: 20px;
+    }
+    .use-menus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .use-item {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    .company-info {
+        display: none;
+    }
+    .address {
+        display: none;
+    }
+    .company-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-item {
+        padding-top: 20px;
+    }
+    .number {
+        display: flex;
+        flex-direction: column;
+    }
+    .number-item {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .footer-bottom {
+        display: flex;
+        justify-content: center;
+        border-top: 2px solid rgb(65, 65, 65);
+        font-size: 12px;
+    }
+}
+    
+footer {
+    background-color: rgb(245, 245, 245);
+    font-family: 'NanumSquareRound';
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-container {
+    width: 1170px;
+}
+.footer-first-line {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+}
+.sns-area {
+    display: flex;
+    align-items: center;
+}
+.sns-icon {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(65, 65, 65);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.sns-icon:hover {
+    color: black;
+}
+.use-menus {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.use-item {
+    margin-right: 20px;
+}
+ul a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+ul a:hover {
+    color: black;
+}
+.company-info {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.info-item {
+    margin-right: 20px;
+}
+.address {
+    margin-bottom: 10px;
+}
+.number {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.number-item {
+    margin-right: 20px;
+}
